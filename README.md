@@ -1,11 +1,11 @@
-About r-enrichr
-===============
+About r-enrichr-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-enrichr-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=enrichR
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-enrichr-feedstock/blob/main/LICENSE.txt)
 
 Summary: Provides an R interface to all 'Enrichr' databases. 'Enrichr' is a web-based tool for analysing gene sets and returns any enrichment of common annotated biological features. Quoting from their website 'Enrichment analysis is a computational method for inferring knowledge about an input gene set by comparing it to annotated gene sets representing prior biological knowledge.' See (<http://amp.pharm.mssm.edu/Enrichr/>) for further details.
 
