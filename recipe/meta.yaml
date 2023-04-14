@@ -23,13 +23,18 @@ build:
 requirements:
   build:
     - {{ posix }}zip               # [win]
+    - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
+    - r-writexls
+    - r-curl
     - r-ggplot2
     - r-httr
     - r-rjson
   run:
     - r-base
+    - r-writexls
+    - r-curl
     - r-ggplot2
     - r-httr
     - r-rjson
