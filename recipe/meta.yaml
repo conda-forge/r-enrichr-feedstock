@@ -1,4 +1,4 @@
-{% set version = "3.2" %}
+{% set version = "3.4" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/enrichR_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/enrichR/enrichR_{{ version }}.tar.gz
-  sha256: 612a9ba5a50277d93dad7850f9c620116745971e6404e305a0626d8eb7c127bd
+  sha256: 56b16625c2c05afe6bb63b68ec06d94e9511f1532fae194e64d624f2c338843e
 
 build:
-  number: 2
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
